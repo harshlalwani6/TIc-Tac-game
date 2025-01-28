@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="Container">
+        <div class="row1">
+            <button class="btn col1" onclick="show(this)" id="00"></button>
+            <button class="btn" onclick="show(this)" id="01"></button>
+            <button class="btn col3" class="col3" onclick="show(this)" id="02"></button>
+        </div>
+       
+        <div class="row2">
+            <button class="btn col1" onclick="show(this)" id="10" ></button>
+            <button class="btn" onclick="show(this)" id="11"></button>
+            <button class="btn col3" onclick="show(this)" id="12"></button>
+        </div>
+        <div class="row3">
+            <button class="btn col1" onclick="show(this)" id="20"></button>
+            <button class="btn" onclick="show(this)" id="21"></button>
+            <button class="btn col3"  onclick="show(this)" id="22"></button>
+        </div>
+        <div class="layer" id="Layer">
+            <img src="throphy.png" alt="" id="myimage">
+            <p id="win">Tie</p>
+            <button onclick="reloadpage()">Restart</button>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
